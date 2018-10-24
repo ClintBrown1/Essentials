@@ -9,7 +9,7 @@ namespace Xamarin.Essentials
         static event EventHandler<ConnectivityChangedEventArgs> ConnectivityChangedInternal;
 
         // a cache so that events aren't fired unnecessarily
-        // this is mainly an issue on Android, but we can stiil do this everywhere
+        // this is mainly an issue on Android, but we can still do this everywhere
         static NetworkAccess currentAccess;
         static List<ConnectionProfile> currentProfiles;
 
